@@ -1,7 +1,14 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-Black.woff2);
+}
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
 html, body {
@@ -96,8 +103,6 @@ nav {
     width: min(40vw);
     object-fit: cover;
 }
-
-
 
 @media (max-width: 600px) 
 {
